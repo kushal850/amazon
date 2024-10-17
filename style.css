@@ -54,7 +54,7 @@
     width: 600px;
     height: 40px;
     padding: 10px 0px 10px 0px;
-    border-radius: 30px;
+    border-radius: 10px;
 }
 
 .nav-search:hover {
@@ -66,8 +66,8 @@
     height: 40px;
     width: 70px;
     padding: 0 0 0 10px;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
     border: 2px solid #febd68;
     outline: none;
 }
@@ -89,8 +89,8 @@
     height: 40px;
     background-color: #febd68;
     color: white;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 span {
@@ -145,7 +145,7 @@ span {
     font-size: 0.85rem;
     width: 90%;
     margin-bottom: 25px;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 .hero-msg a {
