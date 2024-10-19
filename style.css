@@ -5,6 +5,7 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
+    background-image: url()
 }
 
 /** navbar **/
@@ -23,7 +24,7 @@
 }
 
 .logo {
-    background-image: url('images/amazon_logo.png');
+    background-image: url(amazon_logo.png);
     height: 50px;
     width: 100%;
     background-size: cover;
@@ -54,7 +55,7 @@
     width: 600px;
     height: 40px;
     padding: 10px 0px 10px 0px;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 
 .nav-search:hover {
@@ -66,8 +67,8 @@
     height: 40px;
     width: 70px;
     padding: 0 0 0 10px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
     border: 2px solid #febd68;
     outline: none;
 }
@@ -89,8 +90,8 @@
     height: 40px;
     background-color: #febd68;
     color: white;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 
 span {
@@ -127,7 +128,7 @@ span {
 
 /** hero sectrion **/
 .hero-section {
-    background-image: url('images/hero_image.jpg');
+    background-image: url('hero_image.jpg');
     background-size: cover;
     height: 350px;
     display: flex;
@@ -145,7 +146,7 @@ span {
     font-size: 0.85rem;
     width: 90%;
     margin-bottom: 25px;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 .hero-msg a {
@@ -243,7 +244,7 @@ li a:hover {
 }
 
 .foot-panel3 .logo {
-    background-image: url('images/amazon_logo.png');
+    background-image: url(amazon_logo.png);
     background-size: cover;
     height: 50px;
     width: 100px;
@@ -270,16 +271,27 @@ li a:hover {
     text-decoration: underline;
 }
 
-
-
-
+.copyright {
+    margin-top: 5px;
+    font-size: 0.8rem;
+}
 
 
 .fa-solid {
     margin-right: 6px;
 }
 
-.copyright {
-    margin-top: 5px;
-    font-size: 0.8rem;
+.svimg {
+    position: absolute;
+    right: 20px;
+    fill:#dddddd;
+    /* padding-top: px; */
+}
+
+.nn {
+    height: 50px;
+}
+
+.nnn {
+    height: 40px;
 }
